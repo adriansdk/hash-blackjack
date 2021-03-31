@@ -1,0 +1,24 @@
+.Card{
+    max-width:30%;
+    width:100%;
+    .card-container{
+        border:2px black solid;
+        border-radius:4%;
+        background-color:white;
+        h1{
+            font-size:4rem;
+        }
+        .suit{
+            font-size:4rem;
+            .red{
+                color:red;
+            }
+            .black{
+                color:black;
+            }   
+        }
+        &h1{
+            padding:100px 0 0 10%
+        }
+    }
+}

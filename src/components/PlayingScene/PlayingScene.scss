@@ -1,0 +1,21 @@
+.Playing-Scene{
+    height:100%;
+    .scene-container{
+        height:95%;
+        width:80%;
+        margin:auto;
+        background-color:red;
+        display:flex;
+        justify-content:space-between;
+    }
+    .player-cards{
+        width:80%;
+        display:flex;
+        justify-content:space-between;
+    }
+    .dealer-cards{
+        width:80%;
+        display:flex;
+        justify-content:space-between;
+    }
+}
